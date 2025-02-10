@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaNaMão - Conectando Você com Serviços Domésticos</title>
+    <!-- Inclui o CSS do Bootstrap, um arquivo css normal e a fonte:"Font Awesome" -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="#">TaNaMão</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" 
+             data-target="#navbarNav" aria-controls="navbarNav" 
+             aria-expanded="false" aria-label="Alterna navegação">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+         <ul class="navbar-nav">
+             <li class="nav-item active">
+                 <a class="nav-link" href="../Pagina Inicial/index.html">Início <span class="sr-only">(atual)</span></a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="../Pagina Serviços/index.html">Serviços</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#">Contato</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#">Sobre</a>
+             </li>
+         </ul>
+     </div>
+     <div class="navbar-nav">
+         <a class="nav-link" href="#">Login</a>
+         <span class="navbar-nav">
+          <a class="nav-link" href="#">Cadastre-se</a>
+         </span>
+         <span class="navbar-text ml-2">
+             <img src="https://i.pinimg.com/564x/51/65/bb/5165bbc3564b4296c70371b75c9774b0.jpg" alt="Usuário" class="foto-usuario">
+         </span>
+     </div>
+ </nav>
+
+
+    <!-- Conteúdo Principal -->
+    <div class="container mt-4">
+        <div class="jumbotron">
+            <h1 class="display-4">Bem-vindo ao TaNaMão!</h1>
+            <p class="lead">Conectando você com os melhores prestadores de serviços domésticos.</p>
+            <hr class="my-4">
+            <p>Acesse os serviços ou cadastre-se como prestador.</p>
+            <a class="btn btn-primary btn-lg" href="../Pagina Serviços/index.html" role="button">Explorar Serviços</a>
+        </div>
+    </div>
+
+    <!-- Seção de Destaques -->
+<section class="container mt-4">
+     <h2 class="mb-3">Serviços em Destaque</h2>
+     <div class="row">
+         <!-- Card de Limpeza Residencial -->
+         <div class="col-md-4">
+             <div class="card">
+                 <img class="card-img-top" src="https://content.portaldofranchising.com.br/wp-content/uploads/2023/09/25184613/Franquias-de-limpeza-residencial-e-empresarial.jpg" alt="Imagem do serviço 1">
+                 <div class="card-body">
+                     <h5 class="card-title">Limpeza Residencial</h5>
+                     <p class="card-text">Serviços de limpeza e organização para sua casa.</p>
+                     <a href="#" class="btn btn-primary">Saiba mais</a>
+                 </div>
+             </div>
+         </div>
+ 
+         <!-- Card de Cozinheiros -->
+         <div class="col-md-4">
+             <div class="card">
+                 <img class="card-img-top" src="https://dexcar.com.br/wp-content/uploads/2022/07/31.05.22-Chapeu-de-Cozinheiro.jpg" alt="Imagem do serviço 2">
+                 <div class="card-body">
+                     <h5 class="card-title">Cozinheiros</h5>
+                     <p class="card-text">Cozinheiros diversos.</p>
+                     <a href="#" class="btn btn-primary">Saiba mais</a>
+                 </div>
+             </div>
+         </div>
+ 
+         <!-- Card de Reparos Gerais -->
+         <div class="col-md-4">
+             <div class="card">
+                 <img class="card-img-top" src="https://mapa-da-obra-producao.s3.amazonaws.com/wp-content/uploads/2017/11/pequenos-reparos.jpg" alt="Imagem do serviço 3">
+                 <div class="card-body">
+                     <h5 class="card-title">Reparos Gerais</h5>
+                     <p class="card-text">Serviços de pequenos reparos e manutenções no lar.</p>
+                     <a href="#" class="btn btn-primary">Saiba mais</a>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ 
+
+    <!-- Seção de Depoimentos -->
+    <section class="container mt-4 bg-light p-4">
+        <h2 class="mb-3">O que nossos clientes dizem</h2>
+        <div id="carouselDepoimentos" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Depoimento 1 -->
+               <div class="carousel-item active">
+                    <p>"Excelente serviço, profissionais qualificados e atenciosos!"</p>
+                    <em>- João da Silva</em>
+               </div>
+               <!-- Depoimento 2 -->
+               <div class="carousel-item">
+                    <p>"Fiquei impressionada com a rapidez e eficiência do serviço. Recomendo fortemente!"</p>
+                    <em>- Maria Oliveira</em>
+               </div>
+               <!-- Depoimento 3 -->
+               <div class="carousel-item">
+                    <p>"Serviço de primeira qualidade! Atendimento personalizado e muito atencioso."</p>
+                    <em>- Carlos Pereira</em>
+               </div>
+               <!-- Depoimento 4 -->
+               <div class="carousel-item">
+                    <p>"Muito satisfeito com a limpeza realizada em minha residência. Profissionais extremamente competentes."</p>
+                    <em>- Ana Martins</em>
+               </div>
+                <!-- Repetir para outros depoimentos -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselDepoimentos" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselDepoimentos" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+
+<!-- Seção de Parceiros -->
+<section class="container mt-4">
+    <h2 class="text-center mb-4">Nossos Parceiros</h2>
+    <div class="row">
+        <!-- Parceiro 1 -->
+        <div class="col text-center">
+            <a href="https://www.todeschini.com.br" target="_blank">
+                <img src="https://media.licdn.com/dms/image/C4D03AQG9h8VCLXQbAQ/profile-displayphoto-shrink_800_800/0/1663937850213?e=2147483647&v=beta&t=0mD_hcrjjuWA4tbUhxqOznXhEyh5dF0SOMkkuOjqrQk" alt="Parceiro 1" class="img-fluid">
+            </a>
+        </div>
+        
+        <!-- Parceiro 2 -->
+        <div class="col text-center">
+            <a href="https://www.acalhomecenter.com.br" target="_blank">
+                <img src="https://lojaacal.vteximg.com.br/arquivos/acal-logo-seo.png?v=5" alt="Parceiro 4" class="img-fluid">
+            </a>
+        </div>
+        
+        <!-- Parceiro 3 -->
+        <div class="col text-center">
+            <a href="https://www.mercadinhossaoluiz.com.br" target="_blank">
+                <img src="https://pbs.twimg.com/profile_images/392799952/1._logo_SL_twitter_400x400.jpg" alt="Parceiro 3" class="img-fluid">
+            </a>
+        </div>
+
+        <!-- Parceiro 4 -->
+        <div class="col text-center">
+            <a href="https://www.magnomuniz.com.br" target="_blank">
+                <img src="data:image/png;base64,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" alt="Parceiro 2" class="img-fluid">
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- Rodapé -->
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container text-center">
+        <span class="text-muted">© 2023 TaNaMão - Todos os direitos reservados.</span>
+    </div>
+</footer>
+
+
+    <!-- Scripts do Bootstrap (jQuery, Popper.js, Bootstrap JS) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

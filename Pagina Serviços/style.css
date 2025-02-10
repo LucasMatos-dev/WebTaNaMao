@@ -1,0 +1,28 @@
+.nav-link {
+     font-size: 1.2em; /* Aumenta o tamanho do texto */
+ }
+ .foto-usuario {
+     width: 40px; /* Largura da foto do usuário */
+     height: 40px; /* Altura da foto do usuário */
+     border-radius: 50%; /* Torna a foto circular */
+ }
+ 
+ /* Adiciona um espaçamento entre os itens da navegação */
+ .nav-link {
+     margin-right: 15px; /* Ajuste o valor conforme necessário */
+ }
+ 
+ /* Adiciona um estilo ao botão de login para diferenciá-lo dos outros itens de navegação */
+ .navbar-nav .nav-link:last-child {
+     padding-left: 0; /* Remove o padding padrão do Bootstrap para alinhar com o botão 'Cadastre-se' */
+ }
+ 
+ .card-img-top {
+     width: 348px;
+     height: 200px;
+     object-fit: cover; /* Opção para manter a proporção */
+ }
+.carousel-control-next{
+    font-size: 200px; /* Aumenta o tamanho do ícone (não funciona)*/
+    color: #ff0000; /* Muda a cor do ícone (não funciona)*/
+}
